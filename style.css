@@ -241,7 +241,7 @@ html {
         font-size: 14px;
     }
     .navbar {
-        height: 64px; /* compact navbar on small phones */
+        height: 120px; /* compact navbar on small phones */
         padding: 8px 12px;
     }
     /* push logo image down slightly on very small screens */
