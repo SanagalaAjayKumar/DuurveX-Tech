@@ -170,7 +170,7 @@ html {
     }
 
     .navbar {
-        height: 72px; /* smaller navbar on narrow screens */
+        height: 120px; /* smaller navbar on narrow screens */
         padding: 8px 12px;
     }
 
