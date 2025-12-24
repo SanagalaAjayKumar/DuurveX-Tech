@@ -237,7 +237,12 @@ html {
     }
     .navbar {
         height: 80px;
-        padding: 0 15px;
+        padding: 10px 15px 8px 15px; /* add top padding so logo doesn't hug the top */
+    }
+    /* push logo image down slightly on very small screens */
+    .logo img {
+        margin-top: 8px;
+        max-height: 96px;
     }
     .btn {
         font-size: 14px;
