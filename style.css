@@ -169,6 +169,11 @@ html {
         color: white;
     }
 
+    .navbar {
+        height: 72px; /* smaller navbar on narrow screens */
+        padding: 8px 12px;
+    }
+
     .nav-links {
         flex-direction: column;
         display: none;
@@ -177,7 +182,7 @@ html {
         backdrop-filter: blur(6px);
         -webkit-backdrop-filter: blur(6px);
         position: absolute;
-        top: 80px; /* align immediately under fixed navbar */
+        top: calc(100% + 6px); /* place menu immediately below navbar */
         right: 0;
         width: 100%;
         padding: 0; /* remove extra vertical padding to avoid unwanted gap */
@@ -236,13 +241,14 @@ html {
         font-size: 14px;
     }
     .navbar {
-        height: 80px;
-        padding: 10px 15px 8px 15px; /* add top padding so logo doesn't hug the top */
+        height: 64px; /* compact navbar on small phones */
+        padding: 8px 12px;
     }
     /* push logo image down slightly on very small screens */
     .logo img {
-        margin-top: 8px;
-        max-height: 96px;
+        margin-top: 6px;
+        max-height: 84px;
+        width: 96px;
     }
     .btn {
         font-size: 14px;
